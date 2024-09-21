@@ -324,7 +324,7 @@
   <h2 class="px-5 py-12 text-center text-4xl font-extrabold text-yellow-100 md:text-5xl lg:px-24 lg:text-6xl xl:px-36">
     Explore My Portfolio!
   </h2>
-  <div class="flex flex-row justify-center gap-4">
+  <div class="mx-auto grid w-fit justify-center gap-4 md:grid-cols-2 lg:grid-cols-3">
     <router-link to="/projects">
       <button
         class="bg-gradient-to-r from-yellow-400 to-yellow-600 text-yellow-100 text-2xl px-8 py-4 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-110 hover:shadow-2xl hover:rotate-3"
