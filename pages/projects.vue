@@ -5,7 +5,7 @@
     >
       My Projects
     </h2>
-    <div class="grid gap-8 md:grid-cols-2"> <!-- Max 2 columns in a row -->
+    <div class="grid gap-8 md:grid-cols-2">
       <div
         v-for="project in projects"
         :key="project.id"
@@ -25,7 +25,6 @@
                 {{ tech }}
               </span>
             </div>
-            <!-- GitHub Link Button in place of 'More Info' -->
             <a
               :href="project.link"
               target="_blank"

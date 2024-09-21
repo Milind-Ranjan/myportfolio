@@ -329,21 +329,21 @@
       <button
         class="bg-gradient-to-r from-yellow-400 to-yellow-600 text-yellow-100 text-2xl px-8 py-4 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-110 hover:shadow-2xl hover:rotate-3"
       >
-        Dive Into My Projects 🎨
+        Projects 🎨
       </button>
     </router-link>
     <router-link to="/blog">
       <button
         class="bg-gradient-to-r from-green-400 to-green-600 text-white text-2xl px-8 py-4 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-110 hover:shadow-2xl hover:rotate-3"
       >
-        Read My Blog 📝
+        Blog 📝
       </button>
     </router-link>
     <router-link to="/contact">
       <button
         class="bg-gradient-to-r from-blue-400 to-blue-600 text-white text-2xl px-8 py-4 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-110 hover:shadow-2xl hover:rotate-3"
       >
-        Contact Me 📞
+        Contact 📞
       </button>
     </router-link>
   </div>
